@@ -111,7 +111,7 @@ Nesse endpoint você pode cadastrar outros contatos, o `body` para o cadastro pr
 ```json=
 {
   "nome": "Joaozinho",
-  "telefone":"18981995548",
+  "telefone":"99999999999",
   "email":"joaozinho@cubos.academy"
 }
 ```
