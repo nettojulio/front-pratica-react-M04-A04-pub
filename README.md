@@ -55,7 +55,7 @@ O token, deve ser enviado nas requisições autenticadas, que estarão marcadas 
 
 ### Endpoints de `Usuário`
 
-#### 1. `POST` (Aberta)  https://cubos-api-contacts.herokuapp.com/login
+#### 1. `POST` (Aberta)  https://cubos-api-contacts.herokuapp.com/usuarios
 Nesse endpoint você pode fazer o cadastro de um novo usuário no seu sistema,
 para cadastrar um usuário você deve enviar o `body` no seguinte formato:
 
@@ -111,7 +111,7 @@ Nesse endpoint você pode cadastrar outros contatos, o `body` para o cadastro pr
 ```json=
 {
   "nome": "Joaozinho",
-  "telefone":"18981995548",
+  "telefone":"99999999999",
   "email":"joaozinho@cubos.academy"
 }
 ```
