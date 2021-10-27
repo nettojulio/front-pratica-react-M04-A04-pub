@@ -61,6 +61,7 @@ para cadastrar um usuário você deve enviar o `body` no seguinte formato:
 
 ```json=
 {
+  "nome": "Danile Lopes",
   "email": "daniel.lopes@cubos.academy",
   "senha": "123456"
 }
