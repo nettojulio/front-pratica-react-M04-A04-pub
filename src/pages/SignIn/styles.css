@@ -1,0 +1,71 @@
+main {
+  display: flex;
+  height: 100vh;
+}
+
+main div {
+  width: 50%;
+}
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-right form {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+}
+
+.container-right form h1 {
+  margin: 0 0 4% 0;
+}
+
+.btn-login {
+  margin-top: 7.2rem;
+}
+
+.register-link {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin-top: 96px;
+}
+
+.register-link span {
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 300px) {
+  .container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-right form {
+    width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .main-sign-in {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .container-right {
+    min-width: 100%;
+  }
+
+  .container-right h1,
+  .container-right span {
+    text-align: center;
+  }
+}
